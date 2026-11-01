@@ -1,0 +1,140 @@
+{
+  "snapshot_date": "2026-11-01",
+  "description": "Selected source files and saved reports. Digests describe copied files before GitHub packaging documentation was added.",
+  "files": [
+    {
+      "path": "scripts/analyze_public_records.py",
+      "sha256": "3c03b1d5b432977ed27c0a06e0b1bcbde7252692aec3ea013c38fc87c2c8b82c"
+    },
+    {
+      "path": "scripts/check_setup.py",
+      "sha256": "00640a65501124a8b03967a849dee4424e6e5e20f9ae3f914dfc60c3045e2f76"
+    },
+    {
+      "path": "scripts/generate_patent_figures.py",
+      "sha256": "1d9786799751b07e41797a4abfbe226c70c1b4c1e53dd6c078324836b5df2d0c"
+    },
+    {
+      "path": "scripts/package_deliverables.py",
+      "sha256": "a09e3104ee1e296cf1612e663ee872c5ca3d20444c74f22f6b055ccdb7e53947"
+    },
+    {
+      "path": "scripts/preflight_patent_artifacts.py",
+      "sha256": "0ac4e269abbdf5c8e013ca158427918c8d7015ca199e9942b3a0ee72a30f2e15"
+    },
+    {
+      "path": "scripts/preflight_software_artifacts.py",
+      "sha256": "7dd3ba2b0b667c1baba97d85cb8dc0d50ad27b6d6ac957a0b82ae5f42c6db119"
+    },
+    {
+      "path": "scripts/prior_art_report.py",
+      "sha256": "008f79caa82382f7981941687bea74d5670f0ae3594c7dad98a3fb48272fd959"
+    },
+    {
+      "path": "scripts/render_patent_disclosure.py",
+      "sha256": "1abdc2237bb0f1a2ab988b598f533348986831022a052d25ec3e6ef33ff6ae70"
+    },
+    {
+      "path": "scripts/render_software_copyright.py",
+      "sha256": "e56bf56f24ceec2b098a28ced5e2129363cd8700ffc607a1cd84fe258145878f"
+    },
+    {
+      "path": "scripts/requirements-altair.txt",
+      "sha256": "74a97ba854eb09812346ed88234e279aa6750c740613da431575d4db8914b5c5"
+    },
+    {
+      "path": "scripts/scan_delivery_secrets.py",
+      "sha256": "16673350a14f0571bedbfbfa01fdb10e936e026c669ae9093799fb2c4e091fe7"
+    },
+    {
+      "path": "scripts/search_public_records.py",
+      "sha256": "4979a9dedcfcf17ed2fe073a55f8e813dbf3874c9418daba87a3b4c038b69af5"
+    },
+    {
+      "path": "scripts/test_skill.py",
+      "sha256": "cddb5a4b16476d678f85bffe3da18ffcc2e7a52c074aeda1c8cae656449d825e"
+    },
+    {
+      "path": "scripts/validate_draft.py",
+      "sha256": "ed8550e2fb1db98657dd70eda06947f7f62cd1d0083cf892868a40bc0ffa1941"
+    },
+    {
+      "path": "scripts/validate_prior_art.py",
+      "sha256": "dc8dc4eed9cb72d2426ab926003e25a009a1fea5fff9a46eba1bb57824dc0f6d"
+    },
+    {
+      "path": "references/data-contracts.md",
+      "sha256": "1a367d11c09e230b7936e7449e2fbbc9507a2f62800bccf6fcb14680ff99c474"
+    },
+    {
+      "path": "references/patent-artifact-workflow.md",
+      "sha256": "35338116683ad4476f65495e1bffe420ac95958d9134b65407a55dcd45c4ae9a"
+    },
+    {
+      "path": "references/patent-prompt.md",
+      "sha256": "2a184f82c04ddcbda70fecde3d5731fd13c274fbf15f0e497607426f43b44dc4"
+    },
+    {
+      "path": "references/reference-style-benchmark.md",
+      "sha256": "3b6ba830daf20b1fcc5724a4c5a9eafd11074a3ab5d5f6ef5f4bfad492c83588"
+    },
+    {
+      "path": "references/search-and-differentiation.md",
+      "sha256": "a3437ca41a7002609c087a2eee45bb7f531110c163b75cb7f05b76ed637bcab4"
+    },
+    {
+      "path": "references/search-api.md",
+      "sha256": "7b2c0d4f91ffe7a7a157a35b2e197d71df07862a0a095268b668135f2d04116b",
+      "upload_sha256": "0858dedeed91e1d5a28079f9bf6e3bcb9db8138cee02c9c1458c49bbf61a7268",
+      "note": "API documentation literals replaced with placeholders."
+    },
+    {
+      "path": "references/software-copyright-prompt.md",
+      "sha256": "6412d20fcc19b61c1778affdcaf6bce0f2687392aa62f4b0c77f9efd5aa7112a"
+    },
+    {
+      "path": "references/template-map.md",
+      "sha256": "ccb8ad11dee51de8eb944ad3e1c4f413e1cbc2efd72a888c681e7e9a6b367518"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "51bdf0aa526719502f4d4e5c611a74b8c15edb0a684e063a75750a3f709828bb"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "751631fbd44ed4ce0f153b22656236f2029ffe281abd97fc89c28c41806c52d2"
+    },
+    {
+      "path": "assets/template-manifest.json",
+      "sha256": "edc1dc6dd3ad74f3f1991e877220c3b01521ca92b5455b75f1c890951c671103"
+    },
+    {
+      "path": "assets/fontconfig-macos.xml",
+      "sha256": "820d90d6ccb1128bd694dfad23ca2bb2c4f3766ec7ac0dfb807d790560146801"
+    },
+    {
+      "path": "assets/templates/patent-technical-disclosure.docx",
+      "sha256": "adb922ad76ae4fbaeec1d79e9f0c42aaae2cec584d80583ea84b89bb62d7b67c"
+    },
+    {
+      "path": "assets/templates/software-detailed-design.docx",
+      "sha256": "a10950e164a3d9685b01c9a3aabe3642da8def5d445e89eb66bfc84fbeb0245e"
+    },
+    {
+      "path": "assets/templates/software-materials-checklist.docx",
+      "sha256": "a3defb263532a04d4cf2c8668aba826aa1c50e574ebe0f5dc03b60f44f0fed18"
+    },
+    {
+      "path": "assets/templates/software-operation-manual.docx",
+      "sha256": "628379d89bf263d41040acdc36366eb500f2c7cae08061401eb180a3cd1a3f7d"
+    },
+    {
+      "path": "assets/templates/software-registration-info.docx",
+      "sha256": "687c0f4ff05508bdf0dc356b59a3ecb5271806b4b3b760a080a8290f920e89c0"
+    },
+    {
+      "path": "assets/templates/software-source-code.docx",
+      "sha256": "e37a1e3da81c27fdafc878ba78e34d9838a804a4bc043f5166d0c5a6ad4462e5"
+    }
+  ]
+}

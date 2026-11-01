@@ -1,0 +1,4 @@
+interface:
+  display_name: "专利与软著智能体"
+  short_description: "按固定提示词生成专利技术交底书与完整软著申请材料包"
+  default_prompt: "Use $draft-patent-copyright to analyze my technical idea and prepare the matching patent or software-copyright draft."

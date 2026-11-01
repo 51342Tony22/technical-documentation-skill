@@ -1,0 +1,117 @@
+{
+  "patent": {
+    "prompt": "references/patent-prompt.md",
+    "deliverable_policy": "Only produce the supplied computer-related patent technical disclosure form. Do not produce claims or a final patent application unless the project owner changes the scope.",
+    "output_documents": [
+      {
+        "id": "technical-disclosure",
+        "template": "assets/templates/patent-technical-disclosure.docx",
+        "sha256": "adb922ad76ae4fbaeec1d79e9f0c42aaae2cec584d80583ea84b89bb62d7b67c",
+        "output_filename": "专利技术交底书.docx",
+        "required_sections": [
+          "申请类别",
+          "申请人",
+          "发明人或设计人",
+          "联系人及联系方式",
+          "发明创造名称",
+          "背景技术及现有技术的缺陷和不足",
+          "具体的技术方案描述",
+          "本发明创造的优点",
+          "具体实施方式及附图"
+        ]
+      }
+    ]
+  },
+  "software-copyright": {
+    "prompt": "references/software-copyright-prompt.md",
+    "deliverable_policy": "For application software, produce the registration information form, operation manual, detailed design specification, and source-code document, then package the fixed customer materials checklist as a supporting reference. Both manuals are mandatory and must not be merged.",
+    "package_filename": "软件著作权登记材料.zip",
+    "output_documents": [
+      {
+        "id": "registration-info",
+        "template": "assets/templates/software-registration-info.docx",
+        "sha256": "687c0f4ff05508bdf0dc356b59a3ecb5271806b4b3b760a080a8290f920e89c0",
+        "output_filename": "软著登记信息采集表.docx",
+        "required_sections": [
+          "软件全称",
+          "版本号",
+          "软件作品说明",
+          "软件分类",
+          "开发完成日期",
+          "发表状态",
+          "开发方式",
+          "著作权人",
+          "开发硬件环境",
+          "运行硬件环境",
+          "开发操作系统",
+          "开发环境和工具",
+          "运行平台和操作系统",
+          "运行支撑环境和支持软件",
+          "编程语言",
+          "源程序量",
+          "开发目的",
+          "面向领域和行业",
+          "软件主要功能",
+          "软件技术特点"
+        ]
+      },
+      {
+        "id": "operation-manual",
+        "template": "assets/templates/software-operation-manual.docx",
+        "sha256": "628379d89bf263d41040acdc36366eb500f2c7cae08061401eb180a3cd1a3f7d",
+        "output_filename": "软件操作说明书.docx",
+        "required_sections": [
+          "软件名称与版本",
+          "编写目的",
+          "软件概述",
+          "运行环境",
+          "系统要求",
+          "功能结构",
+          "操作流程",
+          "功能模块操作",
+          "界面截图及说明"
+        ]
+      },
+      {
+        "id": "detailed-design",
+        "template": "assets/templates/software-detailed-design.docx",
+        "sha256": "a10950e164a3d9685b01c9a3aabe3642da8def5d445e89eb66bfc84fbeb0245e",
+        "output_filename": "软件详细设计说明书.docx",
+        "required_sections": [
+          "软件名称与版本",
+          "编写目的",
+          "项目背景",
+          "总体架构",
+          "软件模块设计",
+          "功能设计和描述",
+          "数据设计",
+          "接口设计",
+          "运行流程",
+          "算法说明",
+          "异常处理",
+          "条件与限制"
+        ]
+      },
+      {
+        "id": "source-code",
+        "template": "assets/templates/software-source-code.docx",
+        "sha256": "e37a1e3da81c27fdafc878ba78e34d9838a804a4bc043f5166d0c5a6ad4462e5",
+        "output_filename": "源代码.docx",
+        "required_sections": [
+          "软件名称与版本",
+          "编程语言",
+          "源程序总行数",
+          "源程序正文"
+        ]
+      }
+    ],
+    "supporting_references": [
+      {
+        "id": "materials-checklist",
+        "template": "assets/templates/software-materials-checklist.docx",
+        "sha256": "a3defb263532a04d4cf2c8668aba826aa1c50e574ebe0f5dc03b60f44f0fed18",
+        "output_filename": "软件著作权登记客户基本材料清单.docx"
+      }
+    ]
+  }
+}
